@@ -19,6 +19,22 @@ header .logo {
   font-size: 20px;
 }
 
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500;
+}
+
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+
 header .presentation {
   margin: 50px 0;
   background: url('./assets/background-picture.jpg') no-repeat;
